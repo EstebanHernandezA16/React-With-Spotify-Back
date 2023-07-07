@@ -1,8 +1,10 @@
 import { userRoutes } from "./userRoutes.js";
+import { spotiRoutes } from "./spotiRoutes.js";
 import {exec} from 'child_process'
 
 export const routes = (route)=>{
     route.use('/user', userRoutes);
+    route.use('/spotify',spotiRoutes);
 
     route.post('/shutdown', (req,res)=>{
         setTimeout(()=>{

@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
 
-const SECRET_KEY = 'JxmxSyNxV5HQtZdvqdjg1zgQxG8CEH4w4bU36swBXsM='
+export const SECRET_KEY = 'JxmxSyNxV5HQtZdvqdjg1zgQxG8CEH4w4bU36swBXsM='
 export const signToken = (tokenInfo) =>{
     const header = {
         algorithm: 'HS256',

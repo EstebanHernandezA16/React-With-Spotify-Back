@@ -1,0 +1,2 @@
+export const CLIENT_ID = '1dd45c0b218d416c8f107cdb14a2258d'
+export const CLIENT_SECRET = '9f18094f455c4b18b164a160209560dc'
